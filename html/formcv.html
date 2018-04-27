@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulaire Client</title>
+</head>
+<body>
+	<form action="actioncv.php" method="post">
+		<fieldset style="background-color: #E0E0E0; margin: auto; width: 780px;">
+			<fieldset><legend></br>Vos details</legend>
+				<label>Votre titre :</label>
+					<select name="gender">
+						<option value="M.">M.</option>
+						<option value="Mme.">Mme.</option>
+						<option value="Licorne">Licorne ???</option>
+					</select>
+					</br></br>
+					<label>Nom* :</label>
+						<input type="text" name="nom" required="">
+					</br></br>
+					<label>Prenom :</label>
+						<input type="text" name="prenom">
+					</br></br>
+					<label>Adresse :</label>
+						<input type="text" name="adresse">
+					</br></br>
+					<label>Code postal :</label>
+						<input type="text" name="codepostal">
+					</br></br>
+					<label>Ville :</label>
+						<input type="text" name="ville">
+					</br></br>
+					<label>Pays :</label>
+						<select name="country">
+							<option value="France">France</option>
+							<option value="Néant">Neant</option>
+							<option value="Dtc">DTC !</option>
+					</select>
+					</br></br>
+					<label>Telephone :</label>
+						<input type="text" name="telephone">
+					</br></br>
+					<label>E-mail* :</label>
+						<input type="email" name="email" required>
+					</br></br>
+					<label>Site Web :</label>
+						<input type="url" name="homepage">
+					</br></br>
+			</fieldset>
+
+			<fieldset>
+				<legend></br>Details du message</legend>
+					<label>Sujet* :</label>
+						<input type="text" name="sujet" required="">
+					</br></br>
+					<label>Priorite :</label>
+						<select name="priority">
+							<option value="Normale">Normale</option>
+							<option value="OSEF">OSEF</option>
+							<option value="OSEF">Obiwan Kenobi</option>
+						</select>
+					</br></br>
+					<label>Message* :</label>
+						<!-- <textarea style="width: 400px; height: 150px;" required>Inserez une piece</textarea> -->
+						<textarea name="message" cols="40" rows="10">Insert coin ...</textarea>
+					</br></br>
+			</fieldset>
+				</br>
+				<input type="submit" name="Submit">
+				</br></br>
+				<input type="reset" name="Reset">
+				</br>
+
+		</fieldset>
+	</form>
+</body>
+</html>
