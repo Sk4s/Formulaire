@@ -1,6 +1,6 @@
 ## Installation
 
--> If you don't see the folder in your localhost make a "sudo chmod -R 777 EspaceAvatar-master" in terminal 
+-> If you don't see the folder in your localhost make a "sudo chmod -R 777 Formulaire-master" in terminal 
 <br>
 In action.php :
 <br>
